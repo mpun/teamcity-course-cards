@@ -25,7 +25,7 @@ module.exports = function (config) {
 
     frameworks: ["jasmine"],
 
-    browsers: ["ChromeHeadless"],
+    browsers: ["PhantomJS", "ChromeHeadless"],
 
   });
 };
